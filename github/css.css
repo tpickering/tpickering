@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0px;
+    position: relative;
+}
+h1 {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+img {
+    height: 80vh;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+    display: none;
+}
+h1:hover + img {
+    display: block;
+}
+    
